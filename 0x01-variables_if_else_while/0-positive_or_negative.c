@@ -2,9 +2,11 @@
 #include<time.h>
 #include<stdio.h>
 
-/* more headers geas there */
-
-/* betty style doc for function main goes there */
+/**
+ * main -Entry point
+ *
+ * Return : Always 0 (succes)
+ */
 int main(void)
 {
 	int n;
