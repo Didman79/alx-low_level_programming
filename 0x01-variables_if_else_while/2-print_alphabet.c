@@ -1,17 +1,19 @@
 #include<stdio.h>
 
 /**
- * main - sort alphabet 
+ * main - sort alphabet
  *
  * Return: 0 (succes)
  */
 
 int main(void)
 {
-	for ( char c = 'a',c<='z', c++)
+	char c = 'a';
+	for (; c <= 'z'; c++)
 	{
-		putchar(c,'\n');
+		putchar(c);
 	}
+	putchar('\n');
 	return (0);
 
 }
