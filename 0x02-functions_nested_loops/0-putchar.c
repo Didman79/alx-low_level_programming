@@ -1,22 +1,16 @@
-#include "putchar.h"
+#include <stdio.h>
+
 
 /**
- * main -input code
+ * main -input code that print_putchar
  *
- * Return: 0 (success)
+ * Return:0 (success)
+ *
  */
 
 int main(void)
 {
-	char *sh = "putchar";
-
-		while (*sh)
-	{
-		_putchar(*sh);
-		sh++
-	}
-
-	_putchar('\n');
+	printf("_putchar \n");
 
 	return (0);
 }
