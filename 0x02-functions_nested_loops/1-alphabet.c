@@ -1,16 +1,15 @@
-#include <stdio.h>
+#include <main.h>
 
 
 /**
  *
- * Main - input code to print alphabet
+ * void - input code to print alphabet
  *
  * Return :0 (success)
  *
  */
 
-
-int main(void)
+void main(void)
 {
 	int c = 'a';
 
