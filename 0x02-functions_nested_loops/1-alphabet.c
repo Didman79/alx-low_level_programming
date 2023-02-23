@@ -3,13 +3,13 @@
 
 /**
  *
- * void - input code to print alphabet
+ * main - input code to print alphabet
  *
  * Return :0 (success)
  *
  */
 
-void main(void)
+int main(void)
 {
 	int c = 'a';
 
