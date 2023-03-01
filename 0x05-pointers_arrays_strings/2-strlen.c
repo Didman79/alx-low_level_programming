@@ -7,7 +7,7 @@
  */
 
 
-void int _strlen(char *s)
+int _strlen(char *s)
 {
 	int i = 0;
 	int n = 0;
