@@ -21,7 +21,7 @@ char *cap_string(char *str)
 
 		for (j = 0; j < 13; j++)
 		{
-			if (str[i] == speciales[j])
+			if (str[i] == specials[j])
 			{
 				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
