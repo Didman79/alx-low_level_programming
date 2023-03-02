@@ -4,7 +4,7 @@
  * _strcat- concatenate value of *src to the value of *dest
  * @*dest : where concatenate will be to
  * @*src : where concatenate will be from
- * return :*dest
+ * Return: dest
  */
 
 
@@ -14,13 +14,16 @@ Void char *_strcat(char *dest, char *src)
 	int i = 0;
 	int j = 0;
 
-	for (; i != '\0'; i++)
+	for (i != '\0')
 	{
-		while (j != '\0')
-			*dest[i] = *src[j];
-		j++;
 		i++;
+		while (j != '\0')
+		{
+			dest[i] = src[j];
+			j++;
+			i++;
+		}
 	}
-	*dest[i] = "\0";
-	return (*dest);
+	dest[i] = "\0";
+	return (dest);
 }
