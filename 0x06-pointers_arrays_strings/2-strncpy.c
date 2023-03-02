@@ -12,14 +12,13 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, l = 0;
+	int i = 0;
 
-	for (i = 0; s[i] && i < n; i++)
-		dest[i] = src[i];
-	l = i;
+	while (src[i] != '\0' && i < n)
+		dest[i++] = src[i];
 
-	while (i = l && i < n)
-		dest[i++] = '\n';
+	while (i < n)
+		dest[i++] = '\0';
 
 	return (dest);
 }
