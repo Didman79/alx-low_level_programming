@@ -4,7 +4,7 @@
  * _strncpy - copy string  to another
  * @dest: string of destination
  * @src: string of origin
- *
+ * @n: size of string src to be copied
  * Return: string copied
  */
 
