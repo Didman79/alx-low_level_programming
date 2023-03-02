@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strcat- concatenate value of *src to the value of *dest
@@ -14,9 +15,8 @@ Void char *_strcat(char *dest, char *src)
 	int j = 0;
 
 	while (i != '\0')
-	{
 		i++;
-	}
+
 	while (j != '\0')
 		{
 			dest[i] = src[j];
