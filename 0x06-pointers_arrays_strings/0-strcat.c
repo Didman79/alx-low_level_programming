@@ -8,7 +8,6 @@
  */
 
 
-
 Void char *_strcat(char *dest, char *src)
 {
 	int i = 0;
@@ -17,10 +16,12 @@ Void char *_strcat(char *dest, char *src)
 	for (i != '\0')
 	{
 		i++;
-		while (j != '\0')
+	}
+	while (j != '\0')
 		{
-			dest[i + j] = src[j];
+			dest[i] = src[j];
 			j++;
+			i++;
 		}
 	}
 	dest[i] = "\0";
