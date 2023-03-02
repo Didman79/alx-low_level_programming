@@ -8,8 +8,7 @@
  * Return: dest after concatanation
  */
 
-
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
@@ -17,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[i] != '\0')
 		i++;
 
-	while (src[j] != '\0')
+	while (src[j] != '\0' && j < n)
 	{
 		dest[i] = src[j];
 		j++;
