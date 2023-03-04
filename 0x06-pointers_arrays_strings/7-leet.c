@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * *leet- replace designed letters by designed numbers
  * @str: string to be checked if it holds the designed letter
  *
@@ -12,8 +11,8 @@
 char *leet(char *str)
 {
 	int i, j = 0;
-	char *n[] = "aAeEoOtTlL";
-	char *m[] = "4433007711";
+	char n[] = "aAeEoOtTlL";
+	char m[] = "4433007711";
 
 	while (str[i] != '\0')
 	{
