@@ -11,20 +11,20 @@
 char *leet(char *str)
 {
 	int i, j;
-	char n[] = "aAeEoOtTlL";
-	char m[] = "4433007711";
+	char c[] = "aAeEoOtTlL";
+	char n[] = "4433007711";
 
-	i =0;
+	i = 0;
 	while (str[i] != '\0')
 	{
 		j = 0;
-		while (n[j] != '\0')
+		while (c[j] != '\0')
 		{
-			if (str[i] == n[j])
+			if (str[i] == c[j])
 			{
-				str[i] = m[j];
+				str[i] = n[j];
 			}
-			j++
+			j++;
 		}
 		i++;
 	}
