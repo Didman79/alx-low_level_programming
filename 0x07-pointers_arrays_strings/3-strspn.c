@@ -5,7 +5,8 @@
  * @*s: string where to count bytes of a segment
  * @*accept: string where characters to identify are  from
  *
- * Return: the matched segment of string s
+ * Return: the number of bytes matched of string s
+ * or zero if not match anyone
  */
 
 unsigned int _strspn(char *s, char *accept)
