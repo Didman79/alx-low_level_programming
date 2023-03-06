@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memset - fills the first n bytes of the memory area pointed to by s with the constant byte b
+ * *_memset - fills the first n bytes of s by b
  * @s: the string  where to rwite
  * @b: the constant byte to write in s
  * @n: n times b gonna be written in s
@@ -11,8 +11,6 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *s[];
-	char b;
 	unsigned int i;
 
 	while (i = 0; i < n)
