@@ -2,8 +2,8 @@
 
 /**
  * _strspn - gets the length of a prefix substring
- * @*s: string where to count bytes of a segment
- * @*accept: string where characters to identify are  from
+ * @s: string where to count bytes of a segment
+ * @accept: string where characters to identify are  from
  *
  * Return: the number of bytes matched of string s
  * or zero if not match anyone
