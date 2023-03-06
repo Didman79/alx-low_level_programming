@@ -2,11 +2,12 @@
 
 /**
  * * _memcpy copies from memory src to memory dest
+ * @dest: where bytes are copied to
  * @src: where bytes are copied from
- * @dest: where bytes are copied to 
  * @n: number of bytes to be copied
  *
  * Return: a pointer dest as result
+ *
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
