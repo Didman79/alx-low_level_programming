@@ -2,11 +2,11 @@
 
 /**
  * * _memcpy copies from memory src to memory dest
- * @dest: where bytes are copied to
- * @src: where bytes are copied from
+ * @dest:pointer where bytes are copied to
+ * @src: pointer where bytes are copied from
  * @n: number of bytes to be copied
  *
- * Return: a pointer dest as result
+ * Return: the pointer dest
  *
  */
 
