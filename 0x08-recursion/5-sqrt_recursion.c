@@ -1,6 +1,7 @@
 #include "main.h"
 
 int sqrtfunc(int x, int i);
+
 /**
  * _sqrt_recursion - the function to calculate sqrt
  * @n: the integer to search squareroot for
@@ -26,7 +27,7 @@ int _sqrt_recursion(int n)
 
 int sqrtfunc(int x, int i)
 {
-	if (i * i >= x)
+	if (i * i > x)
 		return (-1);
 	if (i * i == n)
 		return (i);
