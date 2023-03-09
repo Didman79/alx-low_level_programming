@@ -29,7 +29,7 @@ int sqrtfunc(int x, int i)
 {
 	if (i * i > x)
 		return (-1);
-	if (i * i == n)
+	if (i * i == x)
 		return (i);
 	return (sqrtfunc(x, i + 1));
 }
