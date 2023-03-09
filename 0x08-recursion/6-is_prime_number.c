@@ -30,7 +30,7 @@ int checkprime(int s, int k)
 {
 	if (k == 1)
 		return (1);
-	if (s % i == 0 && i > 0)
+	if (s % k == 0 && k > 0)
 		return (0);
 	return (checkprime(s, k - 1));
 }
